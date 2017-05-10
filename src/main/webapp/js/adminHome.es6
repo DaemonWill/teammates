@@ -24,7 +24,7 @@ function createRowForResultTable(shortName, name, email, institution, isSuccess,
         <td>${encodeHtmlString(email)}</td>
         <td>${encodeHtmlString(institution)}</td>
         <td>${isSuccess ? 'Success' : 'Fail'}</td>
-        <td>${status}</td>
+        <td class="td-responsive-wrap">${status}</td>
     </tr>
     `;
 }
